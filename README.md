@@ -28,7 +28,7 @@ OS name: "mac os x", version: "26.5.2", arch: "aarch64", family: "mac"
 5 тест бичсэн (`letterGradeA`, `letterGradeB`, `gpaTwoScores`, `scholarshipFull`, `scholarshipSeventy`). Гаралт: `results/mvn-verify-A.txt`, `results/jacoco-A.csv`.
 
 - Line: 15/25 = 60%
-- Branch: 20/41 ≈ 49%
+- Branch: 20/41 (48%)
 
 Ажиглалт: Хэвийн урсгалын тестүүд зөвхөн A, B дүн болон 100, 70 хувийн тэтгэлгийг дайрсан. Тиймээс `letterGrade`-ийн C, D, F буцаалт, бүх `throw new IllegalArgumentException` мөрүүд, `gpa()`-ийн null/хоосон шалгалт, `scholarship()`-ийн `hasViolation` болон 50/0 хувийн замууд хүрээгүй (улаан). Нөхцөл бүрийн зөвхөн нэг талаар (үнэн эсвэл худал) орсон `if`-үүд хагас хамрагдсан (шар ромбо) болсон. Жишээ нь `gpa >= 3.8 && credits >= 15`.
 
